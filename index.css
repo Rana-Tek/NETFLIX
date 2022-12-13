@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("background_image.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-color: hsla(0, 0%, 0%, 0.50); */
+}
+main{
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: hsla(0, 0%, 0%, 0.50);
+}
+header{
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: hsla(0, 0%, 0%, 0.50);
+}
+h1{
+    margin:30px 600px;
+    font-family: 'Bowlby One SC', cursive;
+}
+.beyaz{
+    display: inline-block;
+    color:white;
+}
+.kirmizi{
+    display: inline-block;
+    color:red;
+}
+p{
+    margin:auto 450px auto 500px;
+    color:white;
+}
+form{
+    margin:auto 550px;
+    padding-bottom: 30px;
+    /* padding-right: 50px;
+    padding-left: 20px; */
+    background-color: hsla(0, 0%, 0%, 0.70);
+}
+form label{
+    color:white;
+}
+.frm{
+  padding-top:20px;
+  padding-left: 25px;
+}
+
+/* .frm input{
+    width: fit-content;
+} */
+
+.start{ 
+    width:230px;
+    height: 2rem;
+    margin-top: 10px;
+}
+
+.frm select{
+    width: 215px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.frm textarea{
+    resize:none;
+    width:190px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.submit{
+     /* border-radius: ; */
+     background-color: red;
+     width: 130px;
+     height: 30px;
+     color:white;
+     margin-left:45px;
+     border-radius: 30px;
+     border-width: 4px;
+     border-style: outset;
+     border-color:red;
+     border-image:initial;
+}
+
+/* .container input:checked{
+    background-color: #2196F3;
+    } */
+

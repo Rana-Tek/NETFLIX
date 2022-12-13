@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NET - FLIX</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1><span class="beyaz">NET</span><span class="kirmizi">FLIX</span></h1>
+      <p>Thank you for signing up at Netflix. Tell us more about your self</p>
+      <br />
+    </header>
+    <main>
+      <form action="" method="get">
+        <div class="frm">
+          <label for="Name" id="Name" name="Name">Name</label>
+          <br />
+          <input
+            class="start"
+            type="text"
+            id="Name"
+            name="Name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="frm">
+          <label for="age" id="age" name="age">Age</label>
+          <br />
+          <input
+            class="start"
+            type="number"
+            id="age"
+            name="age"
+            placeholder="Age"
+          />
+        </div>
+        <div class="frm">
+          <label for="email" id="email" name="email">Email</label>
+          <br />
+          <input
+            class="start"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your mail"
+          />
+        </div>
+        <div class="frm">
+          <label for="Content-type" name="Content-type" id="Content-type"
+            >Content type</label
+          >
+          <br />
+          <!-- <p>Content type</p> -->
+          <!-- <input type="checkbox" name="Content-type" id="Content-type" value="Series"> -->
+          <select name="Content-type" id="Content-type">
+            <option value="Series">Series</option>
+            <option value="Series"></option>
+          </select>
+        </div>
+        <div class="frm" class="container">
+          <label for="Movie-type" id="movie" name="movie">Movie type</label>
+          <!-- <br>
+            <input type="radio" id="movie" name="movie" value="Comedy">
+            <input type="radio" id="movie" name="movie" value="Action">
+            <input type="radio" id="movie" name="movie" value="Romance" checked> -->
+          <br />
+          <input type="checkbox" name="movie" id="movie" value="Comedy" />
+          <label for="Comedy" id="Comedy" name="Comedy">Comedy</label>
+          <br />
+          <input type="checkbox" name="movie" id="movie" value="Action" />
+          <label for="Action" id="Action" name="Action">Action</label>
+          <br />
+          <input
+            class="romance"
+            type="checkbox"
+            name="movie"
+            id="movie"
+            value="Romance"
+            checked
+          />
+          <label for="Romance" id="Romance" name="Romance">Romance</label>
+        </div>
+        <div class="frm">
+          <label for="Gender" id="Gender" name="Gender">Gender</label>
+          <br />
+          <input type="radio" id="Gender" name="Gender" value="Male" />
+          <label for="Male" id="Male" name="Male">Male</label>
+          <br />
+          <input type="radio" id="Gender" name="Gender" value="Female" />
+          <label for="Female" id="Female" name="Female">Female</label>
+          <br />
+          <input type="radio" name="Gender" id="Gender" value="Other" />
+          <label for="Other" name="Other" id="Other">Other</label>
+        </div>
+        <div class="frm">
+          <label for="Feed-back" name="Feed-back" id="Feed-back"
+            >Feed back</label
+          >
+          <br />
+          <textarea name="Feed-back" id="Feed-back" cols="30" rows="5">
+Any comment</textarea
+          >
+        </div>
+        <div class="frm">
+          <input class="submit" type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
